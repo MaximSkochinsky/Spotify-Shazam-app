@@ -1,0 +1,42 @@
+curl --request PUT \
+  --url https://api.spotify.com/v1/me/player/play?device_id=14c4cc95b6810b45bad87adbc8b0191d7b1cb0b5 \
+  --header 'Authorization: Bearer BQDqmJJVXNeeWaYXbjWqk_3Y0j9wJ8ugFlPr0C8zPZMCF5BnNYcGt7dvTICDUMJYCm-XCDpE540rFOLPdyEZtT8Z2pRZpKHzkhOiGK9DKdubVNrLhdCoI9mFsi8_3ZhLPu8a0gnvbnexFjxTTez4hHwEZG6Fhud26jEtbste-T1P1lWgWfOqMzP6Xu84X-KfRS4UlO7Ks6p72UbtSy_G3rq4kXIzbBNtOFI4utMnUrS9tgHBhMRa_Z2Fi4PW8lfmDVpU6I4HKyvFArAlICj5rpFokwK-tv63LQY' \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "context_uri": "spotify:playlist:3naOPCzGsuH7yAdUQWWysU",
+    "offset": {
+        "position": 5
+    },
+    "position_ms": 0
+}'
+
+
+curl -X POST "https://accounts.spotify.com/api/token" \
+     -H "Content-Type: application/x-www-form-urlencoded" \
+     -d "grant_type=client_credentials&client_id=01ba6c23a87843a783bf5b9a65cf8721&client_secret=a5819ccfad1e45318ae9a4ef6656f5b9"
+
+
+    font-size: 43px;
+    position: absolute;
+    top: 50%;
+    color: #ccc;
+    cursor: pointer;
+    -webkit-text-stroke: 2px #333333;
+    left: 50%;
+    margin-right: 1rem;
+    transform: translate(-50%, -50%);
+
+        position: relative;
+    margin-right: 0.5rem;
+
+
+
+    .result-body .item {
+    display: flex;
+    padding-left: 0px;
+    width: 100%;
+    height: 175px;
+}
+
+
+image alt=song wirdt=200px
