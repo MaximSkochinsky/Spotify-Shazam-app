@@ -1,6 +1,5 @@
 import { ReactMic } from 'react-mic';
 import React from 'react';
-import "./record.css"
 import axios from '../../../axios';
 import Search from '../search/search';
 import Item from '../search/components/results/item';
