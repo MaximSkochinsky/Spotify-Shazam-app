@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Try it out
 
-[https://spotify-react-web-client.onrender.com/](https://spotify-shazam-app-8ufx.vercel.app/)
+[https://spotify-shazam-app-8ufx.vercel.app/]
 
 **Warning:** Spotify Playback requires users to authenticate with a valid Spotify Premium subscription.
 
